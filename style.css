@@ -1,0 +1,12 @@
+.btnC{
+    margin: 0px 60px 15px 60px;
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+    padding: 14px;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <title>DNC Coffee</title>
 </head>
@@ -39,25 +40,25 @@
     </section>
 
     <main class="card-group">
-        <article class="card m-3 border-1 rounded-2">
+        <article class="card m-3 border-1 rounded-2" id="card1" onmouseenter="criaBtn('#card1')" onmouseleave="removeBtn('#card1')">
             <img src="./assets/images/image1.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text ">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
             </div>
         </article>
-        <article class="card m-3 border-1 rounded-2">
+        <article class="card m-3 border-1 rounded-2" id="card2" onmouseenter="criaBtn('#card2')" onmouseleave="removeBtn('#card2')">
             <img src="./assets/images/image2.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!</p>
             </div>
         </article>
-        <article class="card m-3 border-1 rounded-2">
+        <article class="card m-3 border-1 rounded-2" id="card3" onmouseenter="criaBtn('#card3')" onmouseleave="removeBtn('#card3')">
             <img src="./assets/images/image3.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
             </div>
         </article>
-        <article class="card m-3 border-1 rounded-2">
+        <article class="card m-3 border-1 rounded-2" id="card4" onmouseenter="criaBtn('#card4')" onmouseleave="removeBtn('#card4')">
             <img src="./assets/images/image4.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
@@ -80,6 +81,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
