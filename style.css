@@ -1,4 +1,5 @@
 .btnC {
+  display: none;
   margin: 0px 60px 15px 60px;
   background: #2a3342;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -11,101 +12,104 @@
   padding: 14px;
 }
 
-/*#card:hover .btnC{
-    display: block;
-}*/
-
-#modalTotal{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(217, 217, 217, 0.7);
+.card:hover .btnC {
+  display: block;
 }
 
-#modalTotal:target{
-    visibility: visible;
+#modalTotal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 0.7);
 }
 
-#modalSobrenos{
-    background-color: #f6f5fb;
-    border-radius: 20px;
-    width: 671px;
-    height: 581px;
-    background: #FFFFFF;
+#modalTotal:target {
+  visibility: visible;
 }
 
-#exit{
-    display: flex;
-    justify-content: end;
-    margin-top: 32px;
-    margin-right: 34px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#modalSobrenos {
+  background-color: #f6f5fb;
+  border-radius: 20px;
+  width: 671px;
+  height: 581px;
+  background: #ffffff;
+}
+
+#exit {
+  display: flex;
+  justify-content: end;
+  margin-top: 32px;
+  margin-right: 34px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #exit button {
-    background-color: #FFFFFF;
-    margin: 0px;
-    border: 0px;
-    font-weight: 700;
-    color: #b6b6b6;
-    
+  background-color: #ffffff;
+  margin: 0px;
+  border: 0px;
+  font-weight: 700;
+  color: #b6b6b6;
 }
 
-#info{
-    text-align: center;
-    margin-top: 70px;
+#info {
+  text-align: center;
+  margin-top: 70px;
 }
 
-#info h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 39px;
-    line-height: 20px;
-    color: #000000;
+#info h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 20px;
+  color: #000000;
 }
 
-#info p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 23px;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;
-    margin-top: 69px;
+#info p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  margin-top: 69px;
 }
 
-#info p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 23px;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;
-    margin-top: 69px;
+#info p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  margin-top: 69px;
 }
 
 #info button {
-    width: 253px;
-    height: 48px;
-    left: 209px;
-    top: 395px;
+  width: 253px;
+  height: 48px;
+  left: 209px;
+  top: 395px;
 
-    background: #2A3342;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    margin-top: 65px;
+  background: #2a3342;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-top: 65px;
 
-    font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
-    color: #F6F5FB;
-    margin-top: 65px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f6f5fb;
+  margin-top: 65px;
 }
